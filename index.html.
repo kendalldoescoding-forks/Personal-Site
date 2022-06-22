@@ -25,8 +25,8 @@
         <img src="/cloud.png"  class="c1" alt="cloud">
         <h1>I'm Jay</h1>
         <h2 id="programmer">a <span id="pro"> pro</span>grammer.</h2>
-        <img id="c2" src="/cloud.png"  class="c1" alt="cloud">
-        <img id="c3" src="/cloud2.png" alt="">
+        <img id="c2" src="cloud.png"  class="c1" alt="cloud">
+        <img id="c3" src="cloud2.png" alt="">
     </div>
     <!-- Middle Container -->
     <div class="middle-container">
@@ -39,13 +39,13 @@
         <div class="skills">
           <h2>My Skills.</h2>
           <div class="skill-row">
-            <img class="java" src="/Images/java.gif" alt="">
+            <img class="java" src="../Images/java.gif" alt="">
             <h3>Java</h3>
             <p class="java-para">I am learning Object Oriented programming in JAVA through Kunal Kushwaha's playlist on youtube.He explains the concepts very well.I enjoy learning java</p>
           </div>
           <!-- web -->
           <div class="skill-row">
-            <img class="web" src="/Images/6M8I.gif" alt="">
+            <img class="web" src="../Images/6M8I.gif" alt="">
             <h3>Web Development</h3>
             <p class="web-para">I am learning Front-end Development through Angela Yu's Course on udemy.I love doing Web Development.</p>
           </div>
@@ -53,7 +53,7 @@
         <hr>
         <div class="contact-me">
           <h2>Get In Touch</h2>
-          <img id="handshake" src="/Images/handshake.png" alt="">
+          <img id="handshake" src="../Images/handshake.png" alt="">
           <h3>You can connect with me on any of the following:</h3>
           <p>I would love to connect with you!</p>
           <a class="btn" href="mailto:name@email.com">CONTACT ME</a>

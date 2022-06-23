@@ -1,9 +1,9 @@
-
 body{
     margin: 0;
     text-align: center;
     font-family: 'Merriweather', serif;
     color:   #40514E;
+    background-color: rgb(191, 216, 226);
 }
 hr{
     border-top: 6px dotted rgb(160, 150, 150);
@@ -11,9 +11,7 @@ hr{
        border-bottom: none;
        margin: 100px auto;
 }
-#programmer{
-    font-size: 2.5rem;
-}
+
 h1{
     margin-top: 50px auto 0 auto;
     font-family: 'Sacramento', cursive;
@@ -24,7 +22,8 @@ h1{
 h2{
     font-family: 'Montserrat', sans-serif;
     /* font-weight: ; */
-    padding-bottom: 10px;}
+    padding-bottom: 10px;
+font-size:1.9rem ;}
 h3{
     font-family: 'Montserrat', sans-serif;
 }
@@ -41,7 +40,9 @@ h3,a{
  p{
     list-style: 2;
  }
-
+ #programmer{
+    font-size: 2.5rem;
+}
 .intro{
 position: relative;
 background-color: rgb(191, 216, 226);
@@ -53,6 +54,7 @@ width: 200px;
 }
 .middle-container{
     margin:100px 0;
+   
 }
 .skill-row{
     width: 60%;
@@ -104,9 +106,9 @@ width: 25%;
     height: 30%;
     width: 25%;
 }
-#handshake{
-height: 2%;
-width: 2%;
+.handshake{
+font-size: 1.5rem;
+color: #0d796a;
 }
 .contact-msg{
     margin: 40px auto 60px;
@@ -140,7 +142,7 @@ width: 2%;
   }
 
   .bottom-container{
-    background-color: rgb(157, 205, 224);
+    background-color: rgb(78, 158, 187);
     padding: 50px 0 20px;
 }
 .contact-msg{
@@ -154,11 +156,14 @@ width: 2%;
 .icon{
      margin: 7px 20px;
    font-size: 2rem;
-   color: #34c4c9;
+   color: #31dbe0;
 }
 .icon:hover{
     color: #e8ebeb;
 }
 .fa-heart{
     color: red;
+}
+.heart{
+   font-size: 1.2rem;
 }
